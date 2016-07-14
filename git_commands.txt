@@ -1,3 +1,5 @@
-git rm <file> ** removes file from local repository and marks file for removal in staged area
-git reset HEAD <file> ** removes file removal from staging area
-git checkout -- second.txt ** restores file removed with git rm , git reset HEAD <file> must be run before
+git rm <file> 					** removes file from local repository and marks file for removal in staged area
+git reset HEAD <file> 				** removes file removal from staging area
+git checkout -- second.txt 			** restores file removed with git rm , git reset HEAD <file> must be run before
+git diff --staged 				** compares repository with staged files
+git diff 					** compares repository with local files
