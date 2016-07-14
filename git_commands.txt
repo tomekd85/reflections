@@ -27,6 +27,16 @@ git remote rm remote_name			** removes remote repo
 
 git tag						** lists all tagged version. Tags are added if you want to mark a specific version in history
 
+git show <tag>					** shows the commit from the tag
+
+git tag -a v.1.4 -m "tag message"		** creates annotated tag
+
+git tag v.1.4-lw				** creates lightweight tag
+
+git tag -a v1.2 <commit_id>			** tag previous commit
+
+
+
 
 
 
