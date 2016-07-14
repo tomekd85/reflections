@@ -1,0 +1,11 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+.git directory is created in the cwd with all the meta-data needed by git to
+track changes in my program
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+Staging area is the proxy layer between cwd and repository. It contains all
+changes which will be commited in next commit command but can still be removed
+before the commit.

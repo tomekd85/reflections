@@ -1,0 +1,10 @@
+git log
+git diff commit_id1 commit_id2 - where commit_id2 is newer than commit_id1
+git clone - creates repository from existing rep.
+git init - creates repository without any commits in current working directory
+git status - shows which files has changed since the last commit
+git add - add files to the repository
+git commit - commits changes
+git reset - reverses the changes made by add
+
+
