@@ -9,4 +9,28 @@ git log --stat					** shows statistics: deletions insertions
 git log --pretty=format:"%h -%an, %ar : %s"	** displays log in customized fashion
 git log --graph					** displays graph
 
-git commit --amend				** makes the same commit for the second time
+git commit --amend				** makes the same commit for the second time. Takes into account your current staging area
+
+git remote -v					** displays remote repositories
+
+git remote add remote_name https://github.com...** add remote to your repo
+
+git fetch remote_name				** fetch data from remote name. remote_name/master is master branch on remote repo
+
+git fetch origin				** fetches data from origin. origin is remote_name after you made git clone
+
+git remote show origin				** fetches information about origin and tracked branches
+
+git remote rename remote_name new_name		** changes the shortname(remote_name) of remote to new_name 
+
+git remote rm remote_name			** removes remote repo
+
+git tag						** lists all tagged version. Tags are added if you want to mark a specific version in history
+
+
+
+
+
+
+
+
