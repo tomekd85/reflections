@@ -3,3 +3,9 @@ git reset HEAD <file> 				** removes file removal from staging area
 git checkout -- second.txt 			** restores file removed with git rm , git reset HEAD <file> must be run before
 git diff --staged 				** compares repository with staged files
 git diff 					** compares repository with local files
+
+git log -p -2 					** shows last 2 commits with detailed changes
+git log --stat					** shows statistics: deletions insertions
+git log --pretty=format:"%h -%an, %ar : %s"	** displays log in customized fashion
+git log --graph					** displays graph
+
