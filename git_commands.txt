@@ -35,6 +35,31 @@ git tag v.1.4-lw				** creates lightweight tag
 
 git tag -a v1.2 <commit_id>			** tag previous commit
 
+git push origin <tag_name>			** <tag_name> is v.1.4. pushes tag to remote. If we don't specify it explicitly it won't be pushed to the remote repo
+
+git checkout -b <branchname> <tag_name>		** we can't checkout the tag beacause they can move. We can only create new branch with the specific tag
+
+git config --global alias.last 'log -1 HEAD'	** creates alias for new command in git. Now running "git last" calls "git log -1 HEAD"
+
+git branch testing				** creates new branch. Branch is a pointer to specific commit
+
+
+git log --oneline --decoreate			** decorate displays where the HEAD is pointing
+
+HEAD is a pointer to the local branch I'm currently on
+
+git checkout testing				** switches to branch testing. Moves head to testing
+
+git log --oneline --decorate --graph --all	** displays the graph of all commits
+
+
+
+
+
+
+
+
+
 
 
 
