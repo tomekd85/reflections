@@ -52,20 +52,24 @@ git checkout testing				** switches to branch testing. Moves head to testing
 
 git log --oneline --decorate --graph --all	** displays the graph of all commits
 
+git checkout -b <branch_name>			** creates new branch and makes checkout on it
 
+git checkout master
+git merge b1					** assuming I'm in branch b1. I can merge changes with master with git merge b1
 
+git branch -d b1				** after merge branches are aligned. I can delete b1
 
+git merge b1 !!! confict occurs next steps are :
+git status
+vim <conficted_file>
+git add <conflicted_file>			** marks file as with resolved conflict
+git commit					** merged commit
 
+git branch					** displays available branches
+git branch -v					** with last commit message
 
-
-
-
-
-
-
-
-
-
+git branch --merged
+git branch --no-merged
 
 
 
