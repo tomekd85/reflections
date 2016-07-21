@@ -71,5 +71,6 @@ git branch -v					** with last commit message
 git branch --merged
 git branch --no-merged
 
+test commit - to delete
 
 
