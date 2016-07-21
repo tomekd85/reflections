@@ -71,5 +71,7 @@ git branch -v					** with last commit message
 git branch --merged
 git branch --no-merged
 
+git fetch <remote_name>				** fetches the remote data from remote_name 
+
 
 
