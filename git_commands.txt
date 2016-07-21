@@ -71,7 +71,22 @@ git branch -v					** with last commit message
 git branch --merged
 git branch --no-merged
 
-git fetch <remote_name>				** fetches the remote data from remote_name 
+git fetch <remote_name>				** fetches the remote data from remote_name git repository added by git remote add remotename url
+
+git merge origin/remote_branch_name		** merges remote-tracking branch with local
+
+git checkout -b branch_name origin/remote_branch_name	** creates local branch from remote branch. By default after fetch we don't have local copy of remote branch.
+
+git checkout --track origin/remote_branch_name	** the same as previous
+
+
+
+
+git push remote_name localbranchname:remotebranchname	** :remote branch name could be skipped. It would then be named the same as localbranchname
+								pushes local branch to remote repository
+
+
+
 
 
 
